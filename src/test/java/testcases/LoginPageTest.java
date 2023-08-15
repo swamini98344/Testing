@@ -34,6 +34,7 @@ public class LoginPageTest extends BaseFile {
 	public void lmxLogoImageTest() {
 		boolean flag = loginPage.validatelmxlogo();
 		Assert.assertTrue(flag);
+		//Test
 	}
 
 	@Test(priority=3)
